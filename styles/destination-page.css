@@ -1,0 +1,44 @@
+.destination-page {
+  position: relative;
+  object-fit: cover;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.destination-page__bg {
+  display: block;
+  width: 100%;
+}
+
+.destination-page__title {
+  color: #FFFFFF;
+  position: absolute;
+  font-size: 5rem;
+  top: 9.688rem;
+  left: 3.438rem;
+  margin: 0;
+}
+
+.destination-page__itinerary {
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 20.313rem;
+  right: 0;
+  left: 0;
+  padding: 0 6.25rem;
+}
+
+.itinerary__card-title {
+  text-align: center;
+  border-bottom: 2px solid black;
+  margin: 0.938rem 0.938rem 1.875rem 0.938rem;
+}
+
+.itinerary-card__item {
+  text-align: center;
+  margin: 0.938rem;
+  background-color: #f0f0f0;
+  padding: 0.938rem;
+  font-size: 1.25rem;
+}
